@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <meta
+        name="description"
+        content="Listado organizado de animales rescatados y casos atendidos."
+    >
+    <title>Rescates registrados | Red Solidaria Animal</title>
+</head>
+
+<body>
+    <header>
+        <img
+            src="assets/img/logo-red-solidaria.png"
+            alt="Logotipo de Red Solidaria Animal"
+            width="150"
+            height="150"
+        >
+
+        <h1>Rescates registrados</h1>
+
+        <p>
+            Consulta los casos atendidos por la red y el estado
+            actual de cada animal.
+        </p>
+    </header>
+
+    <nav aria-label="Navegación principal">
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="reportar.html">Reportar un caso</a>
+            </li>
+            <li>
+                <a href="rescates.html" aria-current="page">
+                    Consultar los rescates
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section aria-labelledby="listado">
+            <h2 id="listado">Listado general de casos</h2>
+
+            <p>
+                La tabla contiene información básica sobre los
+                animales reportados, su urgencia y el seguimiento que 
+                se ha realizado.
+            </p>
+
+            <table>
+                <caption>
+                    Seguimiento de los animales reportados
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Código</th>
+                        <th scope="col">Nombre provisional</th>
+                        <th scope="col">Categoría</th>
+                        <th scope="col">Urgencia</th>
+                        <th scope="col">Sector</th>
+                        <th scope="col">Estado actual</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">RSA-101</th>
+                        <td>Caramelo</td>
+                        <td>Perro</td>
+                        <td>Alta</td>
+                        <td>Parque La Esperanza</td>
+                        <td>En atención veterinaria</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">RSA-102</th>
+                        <td>Miel</td>
+                        <td>Gato</td>
+                        <td>Media</td>
+                        <td>Barrio Los Almendros</td>
+                        <td>En recuperación</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">RSA-103</th>
+                        <td>Kiara</td>
+                        <td>Fauna Silvestre</td>
+                        <td>Alta</td>
+                        <td>Vía rural</td>
+                        <td>Derivado a entidad especializada</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">RSA-104</th>
+                        <td>Chocolate</td>
+                        <td>Perro</td>
+                        <td>Baja</td>
+                        <td>Ciudadela El Bosque</td>
+                        <td>En hogar temporal</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">RSA-105</th>
+                        <td>Thom</td>
+                        <td>Gato</td>
+                        <td>Baja</td>
+                        <td>Sector comercial</td>
+                        <td>Disponible para adopción</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section aria-labelledby="significado-estados">
+            <h2 id="significado-estados">
+                Significado de los estados
+            </h2>
+
+            <article>
+                <h3>En atención veterinaria</h3>
+                <p>
+                    El animal recibe evaluación, tratamiento o
+                    supervisión de personal veterinario.
+                </p>
+            </article>
+
+            <article>
+                <h3>En recuperación</h3>
+                <p>
+                    El caso se encuentra estable, pero todavía
+                    requiere cuidados y seguimiento.
+                </p>
+            </article>
+
+            <article>
+                <h3>En hogar temporal</h3>
+                <p>
+                    El animal permanece en un espacio provisional
+                    mientras se define una solución permanente.
+                </p>
+            </article>
+
+            <article>
+                <h3>Disponible para una adopción</h3>
+                <p>
+                    El animal ha completado su recuperación y puede
+                    iniciar un proceso de adopción responsable.
+                </p>
+            </article>
+        </section>
+
+        <section aria-labelledby="recomendaciones-adopcion">
+            <h2 id="recomendaciones-adopcion">
+                Recomendaciones para adoptar
+            </h2>
+
+            <ul>
+                <li>
+                    Verificar que la familia pueda asumir el cuidado
+                    diario del animal.
+                </li>
+                <li>
+                    Garantizar alimentación, protección y atención
+                    veterinaria.
+                </li>
+                <li>
+                    Preparar un espacio seguro antes de recibirlo.
+                </li>
+                <li>
+                    Mantener actualizadas las vacunas y
+                    desparasitaciones.
+                </li>
+                <li>
+                    Aceptar el seguimiento posterior a la adopción.
+                </li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="registrar-caso">
+            <h2 id="registrar-caso">¿Conoces otro caso?</h2>
+
+            <p>
+                Si encontraste un animal que necesita ayuda, utiliza
+                el formulario para registrar la información.
+            </p>
+
+            <p>
+                <a href="reportar.html">
+                    Ir al formulario de reporte
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Red Solidaria Animal</p>
+
+        <address>
+            Contacto:
+            <a href="mailto:rzambrano9139@utm.edu.ec">
+                rzambrano9139@utm.edu.ec
+            </a>
+        </address>
+
+        <p>Actividad desarrollada con HTML5.</p>
+    </footer>
+</body>
+</html>
